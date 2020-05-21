@@ -1,0 +1,32 @@
+{
+  "name": "phone-lk",
+  "version": "1.0.0",
+  "description": "NPM package to validate and reformat the Sri Lanka telephone number.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushanshamika/phone-lk.git"
+  },
+  "keywords": [
+    "phonenumber",
+    "phone",
+    "number",
+    "validate",
+    "format",
+    "sri",
+    "lanka",
+    "lk"
+  ],
+  "author": "Kushan Shamika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kushanshamika/phone-lk/issues"
+  },
+  "homepage": "https://github.com/kushanshamika/phone-lk#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
