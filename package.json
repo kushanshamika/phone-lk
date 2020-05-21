@@ -4,7 +4,7 @@
   "description": "NPM package to validate and reformat the Sri Lanka telephone number.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage && codecov"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,11 @@
   },
   "homepage": "https://github.com/kushanshamika/phone-lk#readme",
   "devDependencies": {
+    "codecov": "^3.7.0",
     "jest": "^26.0.1"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
