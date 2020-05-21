@@ -4,7 +4,7 @@
   "description": "NPM package to validate and reformat the Sri Lanka telephone number.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage && codecov"
+    "test": "jest --coverage && codecov --token='5ef52a0d-5773-40fd-96a8-19e0d547f000'"
   },
   "repository": {
     "type": "git",
