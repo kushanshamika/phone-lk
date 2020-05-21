@@ -1,0 +1,2 @@
+# phone-lk
+With a given phone number, validate and reformat the mobile phone number to the 94XXXXXXXXX and reveal information about phone numbers such as device category(mobile/landline), Service provider information, and landline geolocation. The purpose of this is to allow us to identify mobile numbers and format number to 94XXXXXXXXX that requires most local SMS gateway providers in Sri Lanka.  🇱🇰
