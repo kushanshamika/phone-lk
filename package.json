@@ -1,6 +1,6 @@
 {
   "name": "phone-lk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPM package to validate and reformat the Sri Lanka telephone number.",
   "main": "index.js",
   "scripts": {
