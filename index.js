@@ -12,12 +12,15 @@ function phone(number){
     let areaCodes = fs.readFileSync(path.join(__dirname, '/data/areaCodes.json'));
     areaCodes = JSON.parse(areaCodes);
 
-
-    number = number.match(/\d/g);
     try{
+
+        number = number.match(/\d/g);
         number = number.join("");
+
     }catch{
+
         return [];
+        
     }
 
     var formatedNumber = null;
@@ -53,12 +56,16 @@ function phone(number){
             category = "landline";
             area = areaCodes[formatedNumber.substring(2,4)];
             
-        }else{
-
-            return [];
         }
+
+    }else{
+
+        return [];
+
     }
+
     return [formatedNumber, category, operator, area];
+
 }
 
 module.exports.phone = phone;
