@@ -1,14 +1,15 @@
 const fs = require('fs');
+const path = require('path');
 
 function phone(number){
 
-    let mobileOperatorCodes = fs.readFileSync("./data/mobileOperatorCodes.json");
+    let mobileOperatorCodes = fs.readFileSync(path.join(__dirname, '/data/mobileOperatorCodes.json'));
     mobileOperatorCodes = JSON.parse(mobileOperatorCodes);
 
-    let landlineOperatorCodes = fs.readFileSync("./data/landlineOperatorCodes.json");
+    let landlineOperatorCodes = fs.readFileSync(path.join(__dirname, '/data/landlineOperatorCodes.json'));
     landlineOperatorCodes = JSON.parse(landlineOperatorCodes);
 
-    let areaCodes = fs.readFileSync('./data/areaCodes.json');
+    let areaCodes = fs.readFileSync(path.join(__dirname, '/data/areaCodes.json'));
     areaCodes = JSON.parse(areaCodes);
 
 
