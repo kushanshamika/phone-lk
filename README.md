@@ -1,4 +1,6 @@
-# phone-lk &middot; ![npm](https://img.shields.io/npm/v/phone-lk) ![Node.js CI](https://github.com/kushanshamika/phone-lk/workflows/Node.js%20CI/badge.svg) [![codecov](https://codecov.io/gh/kushanshamika/phone-lk/branch/master/graph/badge.svg)](https://codecov.io/gh/kushanshamika/phone-lk) [![CodeFactor](https://www.codefactor.io/repository/github/kushanshamika/phone-lk/badge)](https://www.codefactor.io/repository/github/kushanshamika/phone-lk)
+![npm](https://img.shields.io/npm/dt/phone-lk) ![npm](https://img.shields.io/npm/v/phone-lk) ![Node.js CI](https://github.com/kushanshamika/phone-lk/workflows/Node.js%20CI/badge.svg) [![codecov](https://codecov.io/gh/kushanshamika/phone-lk/branch/master/graph/badge.svg)](https://codecov.io/gh/kushanshamika/phone-lk) [![CodeFactor](https://www.codefactor.io/repository/github/kushanshamika/phone-lk/badge)](https://www.codefactor.io/repository/github/kushanshamika/phone-lk) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+# phone-lk 
 
 With a given phone number, validate and reformat the mobile phone number to the 94XXXXXXXXX and reveal information about phone numbers such as device category(mobile/landline), Service provider information, and landline geolocation. The purpose of this is to allow us to identify mobile numbers and format number to 94XXXXXXXXX that requires most local SMS gateway providers in Sri Lanka.  🇱🇰
 
