@@ -1,0 +1,51 @@
+{
+    "areaCodes": {
+        "63":"ampara",
+        "25":"anuradhapura",
+        "36":"avissawella",
+        "55":"monaragala",
+        "57":"bandarawela",
+        "65":"batticalo",
+        "32":"chilaw",
+        "11":"colombo",
+        "91":"galle",
+        "33":"gampaha",
+        "47":"hambantota",
+        "51":"hatton",
+        "21":"jaffna",
+        "67":"kalmunai",
+        "34":"kalutara",
+        "81":"kandy",
+        "35":"kegalle",
+        "37":"kurunagala",
+        "23":"mannar",
+        "66":"matale",
+        "41":"matara",
+        "54":"nawalapitiya",
+        "31":"negombo",
+        "52":"nuwara eliya",
+        "38":"panadura",
+        "27":"polonnaruwa",
+        "45":"ratnapura",
+        "26":"trincomalee",
+        "24":"vauniya"
+    },
+    "landlineOperatorCodes": {
+        "0":"lanka bell",
+        "2":"sri lanka telecom",
+        "3":"sri lanka telecom",
+        "4":"dialog",
+        "5":"lanka bell",
+        "7":"dialog",
+        "9":"tritel"
+    },
+    "mobileOperatorCodes": {
+        "70":"mobitel",
+        "71":"mobitel",
+        "72":"hutch",
+        "75":"airtel",
+        "76":"dialog",
+        "77":"dialog",
+        "78":"hutch"
+    }
+}

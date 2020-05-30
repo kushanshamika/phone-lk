@@ -17,6 +17,8 @@ yarn add phone-lk
 
 ##  Basic usage
 
+### Array Format
+
 ```js
 const {phone} = require('phone-lk');
 
@@ -24,6 +26,65 @@ phone("0775489485");        // -> [ '94775489485', 'mobile', 'dialog', null ]
 phone("912225492");         // -> [ '94912225492', 'landline', 'sri lanka telecom', 'galle' ]
 phone("0792225492");        // -> return [] as it is not valid Sri Lanka phone number
 ```
+
+### Object Format
+
+```js
+const {phone} = require('phone-lk');
+
+phone("0775489485", true);        // -> { isValid: true, formattedNumber: '94775489485', category: 'mobile', operator: 'dialog', area: null }
+phone("912225492", true);         // -> { isValid: true, formattedNumber: '94912225492', category: 'landline', operator: 'sri lanka telecom', area: 'galle' ]
+phone("0792225492", true);        // -> { isValid: false }
+```
+
+##  Returned Values
+
+### Category
+* mobile
+* landline
+
+### Landline Operators
+* sri lanka telecom
+* dialog
+* lanka bell
+* tritel
+
+### Mobile Operators
+* mobitel
+* dialog
+* hutch
+* airtel
+
+### Area Codes
+* ampara
+* anuradhapura
+* avissawella
+* bandarawela
+* batticalo
+* chilaw
+* colombo
+* galle
+* gampaha
+* hambantota
+* hatton
+* jaffna
+* kalmunai
+* kalutara
+* kandy
+* kegalle
+* kurunagala
+* mannar
+* matale
+* matara
+* monaragala
+* nawalapitiya
+* negombo
+* nuwara eliya
+* panadura
+* polonnaruwa
+* ratnapura
+* trincomalee
+* vauniya
 
 ## License
 
